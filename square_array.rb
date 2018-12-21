@@ -9,5 +9,5 @@
 #end
 
 def square_array(array)
-  array.collect {|root| root.Square}
+  array.collect {|root| Square.root}
 end
